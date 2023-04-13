@@ -1,0 +1,47 @@
+#recent-games {
+    background: url('https://onclickwebdesign.com/wp-content/uploads/recent_games_bg.png') top center no-repeat;
+    background-color: #eef2f6;
+    border-top: 1px solid #d6dee7;
+    border-bottom: 1px solid #d6dee7;
+    padding: 100px 0 120px;
+  }
+  
+  .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+    }
+    
+    .fa:hover {
+        opacity: 0.7;
+    }
+    
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+      
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+    
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    a
+    {
+        text-decoration: none;
+        color: orangered;
+    }

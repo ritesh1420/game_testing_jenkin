@@ -1,0 +1,39 @@
+<html>
+    <title>Resistration</title>
+<head><CENTER>Resistration</CENTER></head>
+    <body style="background-image: url('image/i.png'); color: cornsilk;">
+    <form method=POST>
+        <b>Name</b><br>
+        <input type="text" placeholder="first name" id="t1"></input>&nbsp;
+        <input type="text" placeholder="second name" id="t2"></input><br><br>
+        <b>Enter Id</b><br>
+        <input type="text" placeholder="example@example.com" id="t3"></input>
+        @<select>
+            <option value="Email">gmail</option>
+            <option value="yahoo">yahoo</option>
+            <option value="google">google</option>
+        </select>.com
+        <br><br><input type="submit" value="sumite" onclick="return valid()">
+    </form>
+<script>
+  function valid()
+  {
+      var a=document.getElementById("t1").value;
+      if(a=="")
+      {
+          alert("field must be not empty");
+          document.getElementById("t1").style.background="yellow";
+          return false;
+      }
+      var a=document.getElementById("t3").value;
+      if(a=="")
+      {
+          alert("field must be not empty");
+          document.getElementById("t3").style.background="yellow";
+          return false;
+      }
+      alert("submitted sucessfully");
+  }
+</script>
+</body>
+</html>
